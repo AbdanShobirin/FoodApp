@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28143507297",
+    "project_id": "foodapp-683cb",
+    "storage_bucket": "foodapp-683cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28143507297:android:a6e57b9e6494ab470f5720",
+        "android_client_info": {
+          "package_name": "com.abdan.foodapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWNOcZ9R8K07MLqK_Dztbp3P3l5x09aBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
