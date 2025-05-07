@@ -6,7 +6,7 @@
 
 ## Anggota Kelompok 1
 Abdan Shobirin : (https://trello.com/b/YyxnCYRj/food-app) <br>
-Ridho Rahmat Ibrahim
+Ridho Rahmat Ibrahim : (https://trello.com/c/d9zn1JEc) <br>
 
 ## Tentang Food App
 Reporsiotory ini dibuat untuk mendeskipsikan tentang project Food App
