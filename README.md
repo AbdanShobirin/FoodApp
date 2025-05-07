@@ -1,15 +1,12 @@
-<h1 align="center">WELCOME TO MY PROJECT!</h1>
-<h1 align="center">CAFE SELF SERVICE</h1>
+<h1 align="center">WELCOME TO FOOD APP</h1>
+<h1 align="center">KELOMPOK 1</h1>
 <p align="center">
   <img src="template/masuk/images/cafe.jpg" alt="Logo" width="300"><br>
 </p>
 
-## Project By Kelompok 4
-Abdan Shobirin : (https://github.com/AbdanShobirin) <br>
-Rizki Aprillia : (https://github.com/kikiapr)<br>
-Mizzu Fauzil : (https://github.com/adhim0000000001)<br>
-Imam Permana : (https://github.com/mamzcc)<br>
-Ardellia Salsabilla : (https://github.com/ardeliasalsabila)<br>
+## Anggota Kelompok 1
+Abdan Shobirin : (https://trello.com/b/YyxnCYRj/food-app) <br>
+Ridho Rahmat Ibrahim
 
 ## Tentang Project
 Reporsiotory ini dibuat untuk membahas aplikasi self service pada semua cafe berdasarkan jurnal "APLIKASI SELF SERVICE MENU MENGGUNAKAN METODE
