@@ -6,7 +6,7 @@
 
 ## Anggota Kelompok 1
 Abdan Shobirin : (https://trello.com/b/YyxnCYRj/food-app) <br>
-Ridho Rahmat Ibrahim : (https://trello.com/c/d9zn1JEc) <br>
+Ridho Rahmat Ibrahim : (https://trello.com/b/xoYcHisg/mobile) <br>
 Mizzu Fauzil Adhim :
 
 ## Tentang Food App
