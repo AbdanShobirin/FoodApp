@@ -7,6 +7,14 @@
 ## Anggota Kelompok 1
 Abdan Shobirin : (https://trello.com/b/YyxnCYRj/food-app) <br>
 Ridho Rahmat Ibrahim : (https://trello.com/c/d9zn1JEc) <br>
+Mizzu Fauzil Adhim :
 
 ## Tentang Food App
 Reporsiotory ini dibuat untuk mendeskipsikan tentang project Food App
+Food App merupakan aplikasi untuk memesan makanan
+
+## Storyboad
+1. User masuk ke menu awal, kemudian akan diarahkan ke tampilan utama
+2. Ditampilan utama akan ada banner yang berisi promosi, kolom car dan kategori menu
+3. Kemudian setelah user memilih category maka akan tampil daftar menu
+4. kemudian user memilih menu
