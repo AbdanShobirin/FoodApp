@@ -77,7 +77,7 @@ fun SplashScreen(onGetStarterClick:()->Unit={}) {
         }
 
         val styledText= buildAnnotatedString {
-            append("Welcome to your")
+            append("Welcome to your ")
             withStyle(style = SpanStyle(color = colorResource(R.color.orange))){
                 append("Food\nparadis ")
             }

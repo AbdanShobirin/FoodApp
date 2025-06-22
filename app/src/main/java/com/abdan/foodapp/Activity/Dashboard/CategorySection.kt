@@ -28,8 +28,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.core.content.ContextCompat.startActivity
 import coil.compose.AsyncImage
+import com.abdan.foodapp.Activity.ItemsList.ItemsListActivity
 import com.abdan.foodapp.Domain.CategoryModel
+import com.google.firebase.database.core.Context
 import java.util.Locale
 
 
@@ -64,7 +67,9 @@ fun CategorySection(categories: SnapshotStateList<CategoryModel>, showCategoryLo
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(vertical = 8.dp),
-                    horizontalArrangement = Arrangement.SpaceBetween
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically //ditambahin GPT
+
                 ){
                     row.forEachIndexed { index, categoryModel->
 
@@ -74,6 +79,11 @@ fun CategorySection(categories: SnapshotStateList<CategoryModel>, showCategoryLo
                                 .weight(1f)
                                 .padding(horizontal = 8.dp),
                             onItemClick = {
+                                val intent= Intent(context, ItemsListActivity::class.java).apply {
+                                    putExtra("id",categoryModel.Id.toString())
+                                    putExtra("title",categoryModel.Name)
+                                }
+                                startActivity(context,intent,null)
 
                             }
                         )
@@ -96,13 +106,12 @@ fun CategorySection(categories: SnapshotStateList<CategoryModel>, showCategoryLo
 fun CategoryItem(category: CategoryModel,modifier: Modifier,onItemClick:()-> Unit){
     Column (
         modifier = Modifier
-        .fillMaxWidth()
         .background(
             color = colorResource(R.color.lightOrange),
             shape = RoundedCornerShape(13.dp)
         )
         .clickable(onClick = onItemClick)
-        .padding(8.dp),
+        .padding(15.dp), //diedit aslinya 8
         horizontalAlignment = Alignment.CenterHorizontally
     ){
         AsyncImage(

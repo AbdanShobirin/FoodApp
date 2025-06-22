@@ -19,6 +19,7 @@ import com.abdan.foodapp.Domain.BannerModel
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshots.SnapshotStateList
+import androidx.compose.ui.tooling.preview.Preview
 import com.abdan.foodapp.Domain.CategoryModel
 import com.abdan.foodapp.ViewModel.MainViewModel
 
@@ -34,6 +35,7 @@ class MainActivity : BaseActivity() {
 //
 
 @Composable
+@Preview
 fun MainScreen() {
     val scaffoldState= rememberScaffoldState()
     val viewModel= MainViewModel()

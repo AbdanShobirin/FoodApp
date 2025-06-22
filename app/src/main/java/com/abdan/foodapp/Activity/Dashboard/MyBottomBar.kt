@@ -1,5 +1,7 @@
 package com.abdan.foodapp.Activity.Dashboard
 
+import android.content.Intent
+import android.widget.Toast
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.BottomAppBar
@@ -18,6 +20,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.abdan.foodapp.Activity.Cart.CartActivity
 import com.abdan.foodapp.R
 
 @Composable
@@ -37,9 +40,9 @@ fun MyBottomBar(){
                 onClick = {
                     selectedItem=bottomMenuItem.label
                     if(bottomMenuItem.label=="Cart"){
-
+                        context.startActivity(Intent(context, CartActivity::class.java))
                     }else{
-
+                        Toast.makeText(context,bottomMenuItem.label, Toast.LENGTH_SHORT).show()
                     }
                 },
                 icon = {
